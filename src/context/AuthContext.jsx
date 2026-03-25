@@ -2,7 +2,7 @@ import { createContext, useContext, useMemo, useState } from "react";
 
 const AUTH_STORAGE_KEY = "fa_admin_auth_v1";
 const AUTH_TTL_MS = 1000 * 60 * 60 * 8;
-const API_BASE = process.env.REACT_APP_API_BASE_URL || "http://localhost:5000";
+const API_BASE = process.env.REACT_APP_API_BASE_URL || "";
 
 const AuthContext = createContext(null);
 
