@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://faraz-abaya-v5-2.onrender.com/api/:path*"
+    },
+    {
+      "source": "/orders",
+      "destination": "https://faraz-abaya-v5-2.onrender.com/orders"
+    }
+  ]
+}
